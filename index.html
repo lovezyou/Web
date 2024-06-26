@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo">Port<span>folio</span></a>
+        <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class="bx bx-menu" id="menu-icons" ></i>
+                <i class="bx bx-x" id="close-icon"></i>
+            </label>
+        <nav class="nav-bar">
+             <a href="#home" class="active">Home</a>
+             <a href="#about">About</a>
+             <a href="#skills">Skills</a>
+             <a href="#projects">Projects</a>
+             <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself!</h3>
+            <h1>Prasanth K</h1>
+            <h3>And I am a <span>Junior Front-End Developer</span></h3>
+            <p>As a final-year student pursuing a Bachelor of Computer Applications (BCA), I am passionate about front-end website development and continuously refining my skills in this dynamic field.</p>
+            <div class="social-media">
+                <a href="#" target="_blank" ><i class="bx bxl-facebook"></i></a>
+                <a href="#" target="_blank"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sivaram-r-2a6282297/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+            </div>
+        <a href="" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="./images/prof.png" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/program.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span> Me</span></h2>
+            <h3>Junior Front-End Developer</h3>
+            <p>Hello! My name is Sivaram, and I am currently in my final year of studying for a Bachelor of Computer Applications (BCA). Alongside my formal education, I have a keen interest in web development, which I pursue in my free time.I have been actively learning various web development technologies, including HTML, CSS, JavaScript, and frameworks like React.js and Node.js. To enhance my skills and apply what I’ve learned, I have been working on several mini projects. These projects not only allow me to put theory into practice but also help me to better understand the real-world applications of web development concepts</p>
+        </div>
+    </section>
+    <div class="tel">
+        
+    </div>
+    <section class="skill" id="skills">
+        <h2>My <span> Skills</span></h2>
+        <div class="container">
+            <div class="skill-box">
+                <img src="./images/html-5.png"  width="30px" heigh="30px" alt="">
+                <span class="title">HTML</span>
+                <div class="skill-bar">
+                    <span class="skill-per html">
+                        <span class="tooltip">90%</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+            <div class="container">
+            <div class="skill-box">
+                <img src="./images/css-3.png"  width="30px" heigh="20px" alt="">
+                <span class="title">CSS</span>
+                <div class="skill-bar">
+                    <span class="skill-per css">
+                        <span class="tooltip">80%</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="skill-box">
+                <img src="./images/java-script.png"  width="30px" heigh="30px" alt="">
+                <span class="title">JavaScript</span>
+                <div class="skill-bar">
+                    <span class="skill-per javaScript">
+                        <span class="tooltip">70%</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+<!------------------------------------------ PROJECT SECTION ------------------------------------------>
+    <section class="project" id="projects">
+        <h2 class="heading">My<span> Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="./images/flip-card.png" alt="">
+                <div class="project-layer">
+                    <h2>Flip Card</h2>
+                    <a href="#">
+                    <i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./images/magnum.jpeg" alt="">
+                <div class="project-layer">
+                    <h2>Login Form</h2>
+                    <a href="#">
+                    <i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./images/fruit.png"  alt="">
+                <div class="project-layer">
+                    <h2>Fruit Shop</h2>
+                    <a href="#">
+                    <i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./images/cal.png"  alt="">
+                <div class="project-layer">
+                    <h2>Calculator</h2>
+                    <a href="#">
+                    <i class="bx bx-link"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+<!--------------------------------------- CONTACT SECTION --------------------------------------------------->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span> Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="MobileNo">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+</body>
+</html>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy;2024 @SivaDevlop | All right Reserved. </p>
+    </div>
+</footer>
